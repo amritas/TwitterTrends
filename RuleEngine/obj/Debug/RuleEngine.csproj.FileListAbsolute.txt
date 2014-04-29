@@ -11,3 +11,8 @@ C:\Users\Admin\Documents\GitHub\TwitterTrends\TwitterTrends\RuleEngine\obj\Debug
 C:\Users\Admin\Documents\GitHub\TwitterTrends\TwitterTrends\RuleEngine\obj\Debug\RuleEngine.pdb
 C:\Users\Admin\Documents\GitHub\TwitterTrends\TwitterTrends\RuleEngine\bin\Debug\Newtonsoft.Json.dll
 C:\Users\Admin\Documents\GitHub\TwitterTrends\TwitterTrends\RuleEngine\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Admin\Documents\GitHub\TwitterTrends\TwitterTrends\RuleEngine\bin\Debug\RuleEngine.dll.config
+C:\Users\Admin\Documents\GitHub\TwitterTrends\TwitterTrends\RuleEngine\bin\Debug\Hammock.ClientProfile.dll
+C:\Users\Admin\Documents\GitHub\TwitterTrends\TwitterTrends\RuleEngine\bin\Debug\TweetSharp.dll
+C:\Users\Admin\Documents\GitHub\TwitterTrends\TwitterTrends\RuleEngine\bin\Debug\Hammock.ClientProfile.pdb
+C:\Users\Admin\Documents\GitHub\TwitterTrends\TwitterTrends\RuleEngine\bin\Debug\TweetSharp.pdb
