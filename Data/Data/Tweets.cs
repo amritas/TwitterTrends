@@ -8,11 +8,11 @@ namespace Data
 {
     public class Tweets
     {
-        public string Tweets { get; set; }
+        public string TweetStatus { get; set; }
 
         public Tweets(string tweets)
         {
-            this.Tweets = tweets;
+            this.TweetStatus = tweets;
         }
     }
 }

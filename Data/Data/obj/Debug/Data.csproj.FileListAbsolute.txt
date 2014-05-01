@@ -1,0 +1,10 @@
+C:\Users\Admin\Documents\GitHub\TwitterTrends\TwitterTrends\Data\Data\bin\Debug\Data.dll.config
+C:\Users\Admin\Documents\GitHub\TwitterTrends\TwitterTrends\Data\Data\bin\Debug\Data.dll
+C:\Users\Admin\Documents\GitHub\TwitterTrends\TwitterTrends\Data\Data\bin\Debug\Data.pdb
+C:\Users\Admin\Documents\GitHub\TwitterTrends\TwitterTrends\Data\Data\bin\Debug\MongoDB.Bson.dll
+C:\Users\Admin\Documents\GitHub\TwitterTrends\TwitterTrends\Data\Data\bin\Debug\MongoDB.Driver.dll
+C:\Users\Admin\Documents\GitHub\TwitterTrends\TwitterTrends\Data\Data\bin\Debug\MongoDB.Bson.xml
+C:\Users\Admin\Documents\GitHub\TwitterTrends\TwitterTrends\Data\Data\bin\Debug\MongoDB.Driver.xml
+C:\Users\Admin\Documents\GitHub\TwitterTrends\TwitterTrends\Data\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\GitHub\TwitterTrends\TwitterTrends\Data\Data\obj\Debug\Data.dll
+C:\Users\Admin\Documents\GitHub\TwitterTrends\TwitterTrends\Data\Data\obj\Debug\Data.pdb
