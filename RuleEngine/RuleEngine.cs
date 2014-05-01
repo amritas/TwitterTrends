@@ -12,8 +12,7 @@ namespace RuleEngine
 {
     public class RuleEngineController : ApiController
     {
-
-        public string GetTweets(string keyword)
+        public void GetTweets(string keyword)
         {
             var consumerKey = ConfigurationManager.AppSettings["TwitterConsumerKey"];
             var consumerSecret = ConfigurationManager.AppSettings["TwitterConsumerSecret"];
@@ -24,7 +23,11 @@ namespace RuleEngine
             service.AuthenticateWith(accessToken, accessTokenSecret);
 
             var tweets = (service.Search(new SearchOptions { Q = keyword })).Statuses.ToString();
-            return JsonConvert.SerializeObject(tweets);
+            string jsonTweets= JsonConvert.SerializeObject(tweets);
+
+            
         }
+
+
     }
 }

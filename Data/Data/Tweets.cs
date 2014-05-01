@@ -4,11 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RuleEngine.Model
+namespace Data
 {
     public class Tweets
     {
-        public virtual string Name { get; set; }
-        public virtual string Text { get; set; }
+        public string Tweets { get; set; }
+
+        public Tweets(string tweets)
+        {
+            this.Tweets = tweets;
+        }
     }
 }
