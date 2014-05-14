@@ -24,8 +24,6 @@ namespace RuleEngine
 
             var tweets = (service.Search(new SearchOptions { Q = keyword })).Statuses.ToString();
             string jsonTweets= JsonConvert.SerializeObject(tweets);
-
-            
         }
 
 
