@@ -16,3 +16,6 @@ C:\Users\Admin\Documents\GitHub\TwitterTrends\TwitterTrends\RuleEngine\bin\Debug
 C:\Users\Admin\Documents\GitHub\TwitterTrends\TwitterTrends\RuleEngine\obj\Debug\RuleEngine.csprojResolveAssemblyReference.cache
 C:\Users\Admin\Documents\GitHub\TwitterTrends\TwitterTrends\RuleEngine\obj\Debug\RuleEngine.dll
 C:\Users\Admin\Documents\GitHub\TwitterTrends\TwitterTrends\RuleEngine\obj\Debug\RuleEngine.pdb
+C:\Users\Admin\Documents\GitHub\TwitterTrends\TwitterTrends\RuleEngine\bin\Debug\Data.dll
+C:\Users\Admin\Documents\GitHub\TwitterTrends\TwitterTrends\RuleEngine\bin\Debug\MongoDB.Bson.dll
+C:\Users\Admin\Documents\GitHub\TwitterTrends\TwitterTrends\RuleEngine\bin\Debug\Data.pdb

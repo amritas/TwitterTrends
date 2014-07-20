@@ -1,31 +1,48 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Data;
+using MongoDB.Driver;
+using Newtonsoft.Json;
+using System.Configuration;
 using System.Web.Http;
 using TweetSharp;
-using System.Configuration;
-using Newtonsoft.Json;
 
 namespace RuleEngine
 {
     public class RuleEngineController : ApiController
     {
-        public void GetTweets(string keyword)
-        {
-            var consumerKey = ConfigurationManager.AppSettings["TwitterConsumerKey"];
-            var consumerSecret = ConfigurationManager.AppSettings["TwitterConsumerSecret"];
-            var accessToken = ConfigurationManager.AppSettings["AccessToken"];
-            var accessTokenSecret = ConfigurationManager.AppSettings["AccessTokenSecret"];
+        public string Tweets;
 
-            var service = new TwitterService(consumerKey, consumerSecret);
-            service.AuthenticateWith(accessToken, accessTokenSecret);
+        string consumerKey = ConfigurationManager.AppSettings["TwitterConsumerKey"];
+        string consumerSecret = ConfigurationManager.AppSettings["TwitterConsumerSecret"];
+        string accessToken = ConfigurationManager.AppSettings["AccessToken"];
+        string accessTokenSecret = ConfigurationManager.AppSettings["AccessTokenSecret"];
+
+        public void GetLatestTweets(string keyword)
+        {
+            ITwitterService service = AuthenticateTwitterSvc();
 
             var tweets = (service.Search(new SearchOptions { Q = keyword })).Statuses.ToString();
-            string jsonTweets= JsonConvert.SerializeObject(tweets);
+            Tweets= JsonConvert.SerializeObject(tweets);
         }
 
+        public MongoCollection<Tweets> ShowTweets()
+        {
+            ITwitterService service = AuthenticateTwitterSvc();
+            Repository repo = new Repository();
+            return repo.GetTweets();
+        }
+       
+        public void SaveTweets(string keyword)
+        {
+            ITwitterService service = AuthenticateTwitterSvc();
+            Repository repo = new Repository();
+            repo.SaveTweets(Tweets);
+        }
 
+        private ITwitterService AuthenticateTwitterSvc()
+        {
+            ITwitterService service = new TwitterService(consumerKey, consumerSecret);
+            service.AuthenticateWith(accessToken, accessTokenSecret);
+            return service;
+        }
     }
 }

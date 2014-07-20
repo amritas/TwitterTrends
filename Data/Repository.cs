@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using MongoDB.Bson;
+﻿using MongoDB.Bson;
 using MongoDB.Driver;
 using System.Configuration;
-
 
 namespace Data
 {
@@ -31,7 +25,12 @@ namespace Data
             Tweets tweet = new Tweets(tweets);
             var collection = mongoDb.GetCollection<Tweets>("tweets");
             collection.Insert(tweet).ToBson();
-           
+        }
+
+        public MongoCollection<Tweets> GetTweets()
+        {
+            var tweetCollection = mongoDb.GetCollection<Tweets>("tweets");
+            return tweetCollection;
         }
     }
 }
