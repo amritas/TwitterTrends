@@ -15,8 +15,14 @@ namespace Data
 
         public void ConnecttoDb()
         {
-            var client = new MongoClient(ConfigurationManager.AppSettings["connectionString"]);
+            //var client = new MongoClient(ConfigurationManager.AppSettings["connectionString"]);
+            //var server = client.GetServer();
+
+            var connectionstring = ConfigurationManager.AppSettings.Get("(MONGOHQ_URL|MONGOLAB_URI)");
+            var url = new MongoUrl(connectionstring);
+            var client = new MongoClient(url);
             var server = client.GetServer();
+            var mongoDb = server.GetDatabase(url.DatabaseName);
             mongoDb= server.GetDatabase("TwitterTrends");
         }
 
