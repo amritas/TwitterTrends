@@ -40,3 +40,6 @@ C:\Users\Admin\Documents\GitHub\TwitterTrends_New\TwitterTrends\RuleEngine\bin\D
 C:\Users\Admin\Documents\GitHub\TwitterTrends_New\TwitterTrends\RuleEngine\obj\Debug\RuleEngine.csprojResolveAssemblyReference.cache
 C:\Users\Admin\Documents\GitHub\TwitterTrends_New\TwitterTrends\RuleEngine\obj\Debug\RuleEngine.dll
 C:\Users\Admin\Documents\GitHub\TwitterTrends_New\TwitterTrends\RuleEngine\obj\Debug\RuleEngine.pdb
+C:\Users\Admin\Documents\GitHub\TwitterTrends_New\TwitterTrends\RuleEngine\bin\Debug\MongoDB.Driver.dll
+C:\Users\Admin\Documents\GitHub\TwitterTrends_New\TwitterTrends\RuleEngine\bin\Debug\MongoDB.Bson.xml
+C:\Users\Admin\Documents\GitHub\TwitterTrends_New\TwitterTrends\RuleEngine\bin\Debug\MongoDB.Driver.xml
