@@ -4,3 +4,10 @@ C:\Users\Admin\Documents\GitHub\TwitterTrends\TwitterTrends\Test\bin\Debug\FakeI
 C:\Users\Admin\Documents\GitHub\TwitterTrends\TwitterTrends\Test\bin\Debug\FakeItEasy.xml
 C:\Users\Admin\Documents\GitHub\TwitterTrends\TwitterTrends\Test\obj\Debug\Test.dll
 C:\Users\Admin\Documents\GitHub\TwitterTrends\TwitterTrends\Test\obj\Debug\Test.pdb
+C:\Users\Admin\Documents\GitHub\TwitterTrends_New\TwitterTrends\Test\bin\Debug\Test.dll
+C:\Users\Admin\Documents\GitHub\TwitterTrends_New\TwitterTrends\Test\bin\Debug\Test.pdb
+C:\Users\Admin\Documents\GitHub\TwitterTrends_New\TwitterTrends\Test\bin\Debug\FakeItEasy.dll
+C:\Users\Admin\Documents\GitHub\TwitterTrends_New\TwitterTrends\Test\bin\Debug\FakeItEasy.xml
+C:\Users\Admin\Documents\GitHub\TwitterTrends_New\TwitterTrends\Test\obj\Debug\Test.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\GitHub\TwitterTrends_New\TwitterTrends\Test\obj\Debug\Test.dll
+C:\Users\Admin\Documents\GitHub\TwitterTrends_New\TwitterTrends\Test\obj\Debug\Test.pdb
