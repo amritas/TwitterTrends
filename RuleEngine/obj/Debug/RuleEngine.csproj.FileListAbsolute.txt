@@ -19,6 +19,7 @@ C:\Users\Admin\Documents\GitHub\TwitterTrends\TwitterTrends\RuleEngine\bin\Debug
 C:\Users\Admin\Documents\GitHub\TwitterTrends\TwitterTrends\RuleEngine\obj\Debug\RuleEngine.csprojResolveAssemblyReference.cache
 C:\Users\Admin\Documents\GitHub\TwitterTrends\TwitterTrends\RuleEngine\obj\Debug\RuleEngine.dll
 C:\Users\Admin\Documents\GitHub\TwitterTrends\TwitterTrends\RuleEngine\obj\Debug\RuleEngine.pdb
+C:\Users\Admin\Documents\GitHub\TwitterTrends_New\TwitterTrends\RuleEngine\obj\Debug\RuleEngine.csprojResolveAssemblyReference.cache
 C:\Users\Admin\Documents\GitHub\TwitterTrends_New\TwitterTrends\RuleEngine\bin\Debug\RuleEngine.dll.config
 C:\Users\Admin\Documents\GitHub\TwitterTrends_New\TwitterTrends\RuleEngine\bin\Debug\RuleEngine.dll
 C:\Users\Admin\Documents\GitHub\TwitterTrends_New\TwitterTrends\RuleEngine\bin\Debug\RuleEngine.pdb
@@ -28,13 +29,11 @@ C:\Users\Admin\Documents\GitHub\TwitterTrends_New\TwitterTrends\RuleEngine\bin\D
 C:\Users\Admin\Documents\GitHub\TwitterTrends_New\TwitterTrends\RuleEngine\bin\Debug\MongoDB.Bson.dll
 C:\Users\Admin\Documents\GitHub\TwitterTrends_New\TwitterTrends\RuleEngine\bin\Debug\MongoDB.Driver.dll
 C:\Users\Admin\Documents\GitHub\TwitterTrends_New\TwitterTrends\RuleEngine\bin\Debug\Newtonsoft.Json.dll
-C:\Users\Admin\Documents\GitHub\TwitterTrends_New\TwitterTrends\RuleEngine\bin\Debug\System.Configuration.dll
 C:\Users\Admin\Documents\GitHub\TwitterTrends_New\TwitterTrends\RuleEngine\bin\Debug\System.Data.DataSetExtensions.dll
 C:\Users\Admin\Documents\GitHub\TwitterTrends_New\TwitterTrends\RuleEngine\bin\Debug\System.Data.dll
 C:\Users\Admin\Documents\GitHub\TwitterTrends_New\TwitterTrends\RuleEngine\bin\Debug\System.dll
 C:\Users\Admin\Documents\GitHub\TwitterTrends_New\TwitterTrends\RuleEngine\bin\Debug\System.Net.Http.dll
 C:\Users\Admin\Documents\GitHub\TwitterTrends_New\TwitterTrends\RuleEngine\bin\Debug\System.Net.Http.Formatting.dll
-C:\Users\Admin\Documents\GitHub\TwitterTrends_New\TwitterTrends\RuleEngine\bin\Debug\System.Web.dll
 C:\Users\Admin\Documents\GitHub\TwitterTrends_New\TwitterTrends\RuleEngine\bin\Debug\System.Web.Http.dll
 C:\Users\Admin\Documents\GitHub\TwitterTrends_New\TwitterTrends\RuleEngine\bin\Debug\System.Web.Http.WebHost.dll
 C:\Users\Admin\Documents\GitHub\TwitterTrends_New\TwitterTrends\RuleEngine\bin\Debug\System.Xml.dll
@@ -49,6 +48,5 @@ C:\Users\Admin\Documents\GitHub\TwitterTrends_New\TwitterTrends\RuleEngine\bin\D
 C:\Users\Admin\Documents\GitHub\TwitterTrends_New\TwitterTrends\RuleEngine\bin\Debug\System.Web.Http.xml
 C:\Users\Admin\Documents\GitHub\TwitterTrends_New\TwitterTrends\RuleEngine\bin\Debug\System.Web.Http.WebHost.xml
 C:\Users\Admin\Documents\GitHub\TwitterTrends_New\TwitterTrends\RuleEngine\bin\Debug\TweetSharp.pdb
-C:\Users\Admin\Documents\GitHub\TwitterTrends_New\TwitterTrends\RuleEngine\obj\Debug\RuleEngine.csprojResolveAssemblyReference.cache
 C:\Users\Admin\Documents\GitHub\TwitterTrends_New\TwitterTrends\RuleEngine\obj\Debug\RuleEngine.dll
 C:\Users\Admin\Documents\GitHub\TwitterTrends_New\TwitterTrends\RuleEngine\obj\Debug\RuleEngine.pdb
