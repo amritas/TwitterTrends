@@ -10,3 +10,4 @@ C:\Users\Admin\Documents\GitHub\TwitterTrends_New\TwitterTrends\Test\bin\Debug\F
 C:\Users\Admin\Documents\GitHub\TwitterTrends_New\TwitterTrends\Test\bin\Debug\FakeItEasy.xml
 C:\Users\Admin\Documents\GitHub\TwitterTrends_New\TwitterTrends\Test\obj\Debug\Test.dll
 C:\Users\Admin\Documents\GitHub\TwitterTrends_New\TwitterTrends\Test\obj\Debug\Test.pdb
+C:\Users\Admin\Documents\GitHub\TwitterTrends_New\TwitterTrends\Test\obj\Debug\Test.csprojResolveAssemblyReference.cache
