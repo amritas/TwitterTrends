@@ -9,7 +9,7 @@ namespace RuleEngine
 {
     public class RuleEngineController : ApiController
     {
-        public string Tweets;
+        static public string Tweets;
 
         string consumerKey = ConfigurationManager.AppSettings["TwitterConsumerKey"];
         string consumerSecret = ConfigurationManager.AppSettings["TwitterConsumerSecret"];
@@ -22,6 +22,7 @@ namespace RuleEngine
 
             var tweets = (service.Search(new SearchOptions { Q = keyword })).Statuses.ToString();
             Tweets= JsonConvert.SerializeObject(tweets);
+            SaveTweets();
         }
 
         public MongoCollection<Tweets> ShowTweets()
@@ -31,9 +32,8 @@ namespace RuleEngine
             return repo.GetTweets();
         }
        
-        public void SaveTweets(string keyword)
+        public void SaveTweets()
         {
-            ITwitterService service = AuthenticateTwitterSvc();
             Repository repo = new Repository();
             repo.SaveTweets(Tweets);
         }
