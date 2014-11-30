@@ -9,7 +9,7 @@ namespace Test
 {
     public class Class1
     {
-        RuleEngineController controller = new RuleEngineController();
+        
        
     }
 }
