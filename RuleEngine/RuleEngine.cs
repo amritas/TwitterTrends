@@ -16,13 +16,24 @@ namespace RuleEngine
         string accessToken = ConfigurationManager.AppSettings["AccessToken"];
         string accessTokenSecret = ConfigurationManager.AppSettings["AccessTokenSecret"];
 
-        public void GetLatestTweets(string keyword)
+        public string GetLatestTweets(string keyword)
         {
             ITwitterService service = AuthenticateTwitterSvc();
 
             var tweets = (service.Search(new SearchOptions { Q = keyword })).Statuses.ToString();
             Tweets= JsonConvert.SerializeObject(tweets);
             SaveTweets();
+            return Tweets;
+        }
+
+        public string GetLatestTweets()
+        {
+            ITwitterService service = AuthenticateTwitterSvc();
+
+            var tweets = (service.Search(new SearchOptions { Lang = "eu", Count = 100, Q = "Amrita Shanbhag" })).Statuses.ToString();
+            Tweets = JsonConvert.SerializeObject(tweets);
+            SaveTweets();
+            return Tweets;
         }
 
         public MongoCollection<Tweets> ShowTweets()
