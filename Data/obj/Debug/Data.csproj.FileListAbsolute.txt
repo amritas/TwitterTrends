@@ -24,6 +24,5 @@ C:\Users\Admin\Documents\GitHub\TwitterTrends_New\TwitterTrends\Data\bin\Debug\S
 C:\Users\Admin\Documents\GitHub\TwitterTrends_New\TwitterTrends\Data\bin\Debug\System.dll
 C:\Users\Admin\Documents\GitHub\TwitterTrends_New\TwitterTrends\Data\bin\Debug\System.Xml.dll
 C:\Users\Admin\Documents\GitHub\TwitterTrends_New\TwitterTrends\Data\bin\Debug\System.Xml.Linq.dll
-C:\Users\Admin\Documents\GitHub\TwitterTrends_New\TwitterTrends\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
 C:\Users\Admin\Documents\GitHub\TwitterTrends_New\TwitterTrends\Data\obj\Debug\Data.dll
 C:\Users\Admin\Documents\GitHub\TwitterTrends_New\TwitterTrends\Data\obj\Debug\Data.pdb
